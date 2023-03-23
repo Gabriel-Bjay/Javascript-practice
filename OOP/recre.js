@@ -66,5 +66,7 @@ function Student(id,name,age,subjects){
     this.subjects=subjects;
 } 
 
+Student.prototype = Object.prototype()
+
 const bjay = new Student (1, "Bjay Mburu",19, ["Maths"])
 console.log(bjay)
